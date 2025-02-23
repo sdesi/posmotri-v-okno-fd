@@ -247,6 +247,7 @@ ol {
   height: 298px;
   position: relative;
   overflow-y: auto;
+  overflow-x: hidden;
   padding: 1px;
 }
 
@@ -321,7 +322,7 @@ ol {
 
 .more-button {
   width: 100%;
-  margin: 0 0px 1px 1px;
+  margin: 0 1px 1px 1px;
 }
 
 /* Кастомный скроллбар */
