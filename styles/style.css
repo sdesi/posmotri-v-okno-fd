@@ -180,7 +180,8 @@ ol {
   align-items: center;
 }
 
-.search-form__checkbox[type="checkbox"]:checked + .search-form__pseudo-checkbox::after {
+.search-form__checkbox[type="checkbox"]:checked
+  + .search-form__pseudo-checkbox::after {
   content: "";
   width: 15px;
   height: 15px;
@@ -269,7 +270,7 @@ ol {
 
 .content__card-link:hover {
   text-decoration: underline;
-  text-underline-offset: 2px;
+  text-underline-offset: 1px;
 }
 
 .content__card-link:active,
